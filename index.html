@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Food Ordering System</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scriptt.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="menu-bar">
+        <ul>
+            <li class="active"><a href="#"><i class="fa fa-home"></i>Home</a></li>
+            <li><a><i class="fa fa-bars"></i>Menu</a>
+
+                <div class="submenu1">
+                    <ul>
+                        <li class="hover-me"><a href="#">Starters</a><i class="fa fa-angle-right"></i>
+                            <div class="submenu2">
+                                <ul>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Chicken 65	&#8377 150</a></li>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Panner 65	&#8377 200</a></li>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Chicken Tikka	&#8377 200</a></li>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Panner Tikka    &#8377 250</a></li>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Veg Manchuria	&#8377 60</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="hover-me"><a href="#">Soups</a><i class="fa fa-angle-right"></i>
+                            <div class="submenu2">
+                                <ul>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Sweet corn soup    &#8377 100</a></li>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Tomato soup    &#8377 110</a></li>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Chilli Soup    &#8377 70</a></li>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Mushroom soup    &#8377 110</a></li>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Chicken soup    &#8377 130</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="hover-me"><a href="#">Biryani's</a><i class="fa fa-angle-right"></i>
+                            <div class="submenu2">
+                                <ul>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Veg.Biryani    &#8377 120</a></li>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Panner Biryani    &#8377 150</a></li>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Chicken Biryani    &#8377 110</a></li>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Mutton Biryani    &#8377 180</a></li>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Egg Biryani    &#8377 110</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="hover-me"><a href="#">Chinese</a><i class="fa fa-angle-right"></i>
+                            <div class="submenu2">
+                                <ul>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Apolo Fish    &#8377 250</a></li>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Chicken Chilly    &#8377 200</a></li>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Chicken Majestic    &#8377 220</a></li>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Prawn 65    &#8377 250</a></li>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Chicken Crispy    &#8377 200</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="hover-me"><a href="#">Sea Food</a><i class="fa fa-angle-right"></i>
+                            <div class="submenu2">
+                                <ul>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Fish Curry    &#8377 150</a></li>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Fish Masala    &#8377 140</a></li>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Fish Malwani    &#8377 160</a></li>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Fish Tikka Masala    &#8377 150</a></li>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Fish Tawa Masala    &#8377 170</a></li>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Fish Goan Curry    &#8377 155</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="hover-me"><a href="#">Pizzas</a><i class="fa fa-angle-right"></i>
+                            <div class="submenu2">
+                                <ul>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Veg Small Pizza    &#8377 99 </a></li>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Veg Medium Pizza    &#8377 149</a></li>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Veg Large Pizza    &#8377 199</a></li>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Chicken small Pizza    &#8377 119</a></li>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Chicken Medium Pizza    &#8377 179</a></li>
+                                    <li><a href="#" onclick="CopyToTextarea(this)">Chicken Large Pizza    &#8377 229</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#"><i class="fa fa-user"></i>About us</a>
+                <div class="submenu1">
+                    <ul>
+						<li class="hover-me"><a href="#">Quality</a><i class="fa fa-angle-right"></i>
+                            <div class="submenu2">
+                                <ul>
+                                    <li><a href="#">The quality of the food and service is defined as meeting or exceeding the expectations of the customer as if promised by the restaurant. The recipe and taste of the food is not the quality of preparation. The food should be properly prepared and the service should be prompt and courteous 😉.</a></li>
+                                </ul>
+                            </div>
+                        </li>	
+                        <li><a href="#">Hygenic</a></li>
+                        <li><a href="#">Fast Delivery</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#"><i class="fa fa-phone"></i>Contact</a>
+                <div class="submenu1">
+                    <ul>
+                        <li class="hover-me"><a href="#">Aashrith</a><i class="fa fa-angle-right"></i>
+                            <div class="submenu2">
+                                <ul>
+                                    <li><a href="#">9700385500</a></li>
+                                </ul>
+                            </div>
+                        </li>
+						<li class="hover-me"><a href="#">Nithilesh</a><i class="fa fa-angle-right"></i>
+                            <div class="submenu2">
+                                <ul>
+                                    <li><a href="#">9866201028</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="hover-me"><a href="#">Ajay</a><i class="fa fa-angle-right"></i>
+                            <div class="submenu2">
+                                <ul>
+                                    <li><a href="#">7680046123</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <h2>Your Order</h2>
+    <form id="FoodForm" onsubmit=confirm()>
+        <textarea id="cartlist"></textarea><br>
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+
+</html>
